@@ -1,0 +1,36 @@
+body {
+    background-color:grey;
+    margin:10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+
+progress[value]{
+    background:"red";
+}
+
+.premiere {
+    background-color:red;
+}
+
+.deuxieme {
+    background-color:orange;
+}
+
+.gauche{
+    background-color:blue;
+    width:200px;
+    height:100px;
+}
+
+.droite{
+    background-color:green;
+    width:100px;
+    height:100px;
+}
