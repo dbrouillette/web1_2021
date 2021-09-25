@@ -1,0 +1,51 @@
+.carre{
+    margin:5px;
+    color:#FFFFFF;
+}
+
+.carre h6{
+    text-align: center;
+}
+
+.carre p{
+    text-align:left;
+}
+
+.objectives{
+    background-color:#c63c4f;
+}
+
+.outputs{
+    background-color:#2897fb;
+}
+
+
+.inputs{
+    background-color:#f49f45
+
+}
+
+.activities{
+    background-color:#55bb91;
+}
+
+.out-takes{
+    background-color:#2474ad;
+}
+.outcomes{
+    background-color:#2474ad;
+}
+
+.impact{
+    background-color:#7c3db5;
+    margin-left:5px;
+}
+
+
+.jaune {
+    background-color:yellow;
+}
+
+.bleu {
+    background-color:blue;
+}

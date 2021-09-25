@@ -1,0 +1,38 @@
+/*
+Wrap en row
+*/
+.parent {
+    background-color:blue;
+    height:500px;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap-reverse;
+    align-content:flex-start;
+    justify-content:space-between;
+}
+
+.enfant {
+    margin:10px;
+    width:100px;
+    height:100px;
+    background-color:gray;
+}
+
+.enfant-1 {
+    background-color:red;
+    /*order:2;*/
+}
+
+.enfant-9 {
+    background-color:red;
+    flex-grow:1;
+}
+
+.enfant-2 {
+    background-color:green;
+}
+
+.enfant-3 {
+    background-color:yellow;
+    color:black;
+}
