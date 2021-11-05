@@ -1,0 +1,26 @@
+body {
+    color:red;
+}
+
+
+/* <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="print.css"> */
+
+@media print {
+    body {
+        color:blue;
+    }
+}
+
+@media screen and (min-width: 500px){
+    body {
+        background-color:yellow;
+    }
+}
+
+
+@media screen and (min-width: 500px) and (max-width:600px){
+    body {
+        background-color:green;
+        color:white;
+    }
+}
